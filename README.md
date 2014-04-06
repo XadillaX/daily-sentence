@@ -6,8 +6,11 @@ A `daily-sentence` module for node.js. (data from http://xue.youdao.com/w?page=1
 It will offer you different an English sentence (translation included) and an image each day. Something like:
 
 > ![不入虎穴，焉得虎子](http://oimagec1.ydstatic.com/image?product=dict-treasury&id=28592795125412817&w=280&h=170)
+>
 > He who would search for pearl must dive deep.
+>
 > 不入虎穴，焉得虎子。
+>
 > <p style="text-align: right;">—— [4/2/2014]</p>
 
 Installation
