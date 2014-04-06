@@ -1,0 +1,30 @@
+{
+  "name": "daily-sentence",
+  "version": "0.0.1",
+  "description": "A `daily-sentence` module for node.js. (data from http://xue.youdao.com/w?page=1&type=all&position=tinyEnglish)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "spidex": "~1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/daily.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/XadillaX/daily-sentence.git"
+  },
+  "keywords": [
+    "Daily",
+    "Motto"
+  ],
+  "author": "XadillaX",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/XadillaX/daily-sentence/issues"
+  },
+  "homepage": "https://github.com/XadillaX/daily-sentence"
+}
