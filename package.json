@@ -1,6 +1,6 @@
 {
   "name": "daily-sentence",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A `daily-sentence` module for node.js. (data from http://xue.youdao.com/w?page=1&type=all&position=tinyEnglish)",
   "main": "index.js",
   "directories": {
