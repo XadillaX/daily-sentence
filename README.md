@@ -1,5 +1,4 @@
-Daily Sentence (Node.js)
-=====================
+# Daily Sentence (Node.js)
 
 A `daily-sentence` module for node.js. (data from http://xue.youdao.com/w?page=1&amp;type=all&amp;position=tinyEnglish)
 
@@ -13,13 +12,12 @@ It will offer you different an English sentence (translation included) and an im
 >
 > <p style="text-align: right;">—— [4/2/2014]</p>
 
-Installation
----------------------
+## Installation
 
 You just input that code under terminal:
 
 ```sh
-$ npm install daily-sentence
+$ npm install daily-sentence --save
 ```
 And you just need require this module in your code file:
 
@@ -27,8 +25,7 @@ And you just need require this module in your code file:
 var daily = require("daily-sentence");
 ```
 
-Usage
----------------------
+## Usage
 
 ### Today
 
@@ -36,7 +33,7 @@ You can get today's sentence via
 
 ```javascript
 daily.today(function(err, sentence) {
-	// DO SOMETHING...
+    // DO SOMETHING...
 });
 ```
 
@@ -46,7 +43,7 @@ You can get oneday's sentence via:
 
 ```javascript
 daily.get(ONE_DAY, function(err, sentence) {
-	// DO SOMETHING...
+    // DO SOMETHING...
 });
 ```
 
@@ -63,8 +60,8 @@ The callback function will offer you an object that like:
 
 ```json
 {
-	"date"  : "yyyy-mm-dd",
-	"image" : "THE_IMAGE_URL",
+    "date"  : "yyyy-mm-dd",
+    "image" : "THE_IMAGE_URL",
     "sen"   : "THE_ENGLISH_SENTENCE",
     "trans" : "THE_TRANSLATION"
 }
