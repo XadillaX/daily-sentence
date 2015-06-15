@@ -1,7 +1,7 @@
 {
   "name": "daily-sentence",
-  "version": "0.0.2",
-  "description": "A `daily-sentence` module for node.js. (data from http://xue.youdao.com/w?page=1&type=all&position=tinyEnglish)",
+  "version": "0.0.3",
+  "description": "A `daily-sentence` module for node.js.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -22,7 +22,7 @@
     "Motto"
   ],
   "author": "XadillaX",
-  "license": "GPLv2",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/XadillaX/daily-sentence/issues"
   },
