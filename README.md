@@ -95,4 +95,4 @@ Just contact me @:
 
 ### License
 
-GPLv2
+MIT
